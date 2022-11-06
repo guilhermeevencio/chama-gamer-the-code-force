@@ -1,0 +1,46 @@
+.headerContainer {
+  background-color: var(--santander);
+  background-size: cover;
+  height: 360px;
+  color: white;
+}
+
+.imageStyle {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.profileInfo {
+  display: flex;
+  gap: 1rem;
+}
+
+.ccDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userDiv {
+  padding: 2rem 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 1rem
+}
+
+.username {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.notificationsButton {
+  border: none;
+  padding: 0.6rem;
+  border-radius: 10px;
+  color: var(--lightGrey);
+  background-color: #2222224e;
+}
