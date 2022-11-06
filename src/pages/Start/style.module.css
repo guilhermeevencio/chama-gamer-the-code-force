@@ -1,0 +1,42 @@
+.container {
+    height: 100vh;
+    color: var(--lighterGrey);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.svgHeadset {
+    align-self: end;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.textContainer {
+    margin: 40px;
+}
+
+button {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.buttonRegister {
+    background-color: var(--santander);
+    color: #FFFFFF;
+    width: 215px;
+}
+
+.buttonLogin{
+    background-color: #FAFAFA;
+    color: var(--santander);
+    width: 100px;
+}
