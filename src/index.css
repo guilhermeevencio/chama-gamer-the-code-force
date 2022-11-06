@@ -1,19 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
-    --santander: '#ec0000',
-    --boston: '#cc0000',
-    --ruby: '#990000',
-    --sky: '#deedf2',
-    --mediumSky: '#cddee7',
-    --darkSky: '#9bc3d3',
-    --lighterGrey: '#f0f0f0',
-    --lightGrey: '#cccccc',
-    --mediumGrey: '#767676',
-    --darkGrey: '#444444',
-    --darkerGrey: '#222222',
+    --santander: #ec0000;
+    --boston: #cc0000;
+    --ruby: #990000;
+    --sky: #deedf2;
+    --mediumSky: #cddee7;
+    --darkSky: #9bc3d3;
+    --lighterGrey: #f0f0f0;
+    --lightGrey: #cccccc;
+    --mediumGrey: #767676;
+    --darkGrey: #444444;
+    --darkerGrey: #222222;
   }
 
 * {
@@ -26,5 +22,5 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: normal;
   font-size: 1rem;
-  background-color: #222222;
+  background-color: var(--darkerGrey);
 }
