@@ -23,4 +23,5 @@ body {
   font-weight: normal;
   font-size: 1rem;
   background-color: var(--darkerGrey);
+  min-height: 100vh;
 }
