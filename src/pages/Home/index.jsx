@@ -1,3 +1,10 @@
+import styles from './styles.module.css'
+
 export function Home() {
-  return <h1>Home</h1>
+  return (
+    <div>
+      <h1 className={styles.teste}>Home</h1>
+      <p>Aqui é a home</p>
+    </div>
+  )
 }
