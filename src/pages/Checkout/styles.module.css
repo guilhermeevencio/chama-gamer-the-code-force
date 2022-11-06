@@ -1,0 +1,47 @@
+.backLink {
+  text-decoration: none;
+  padding-left: 2rem;
+  color: white;
+  font-weight: 300;
+}
+
+.headerContainer {
+  height: 110px;
+  background-color: var(--santander);
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 1.5rem;
+  gap: 2.5rem;
+  color: white;
+}
+
+.headerContainer p {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.detailsContainer {
+  color: white;
+  padding: 1rem 0 1rem 2rem;
+}
+
+.terms {
+  color: white;
+  padding: 4rem 2rem 2rem 2rem;
+}
+
+.finnishOrderButton {
+  width: 80%;
+  margin: auto;
+  border: none;
+  background-color: var(--santander);
+  color: white;
+  height: 54px;
+  border-radius: 16px;
+  font-size: 1rem;
+  font-weight:600
+}
+
+.buttonContainer {
+  text-align: center;
+}

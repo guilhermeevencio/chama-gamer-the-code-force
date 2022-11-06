@@ -5,6 +5,7 @@ import { Shopping } from './pages/Shopping'
 import { Login } from './pages/Login'
 import { Start } from './pages/Start'
 import { PageNotImplemented } from './components/NotImplemented'
+import { Checkout } from './pages/Checkout'
 
 export function Router() {
   return (
@@ -17,6 +18,7 @@ export function Router() {
         <Route path="/payments" element={<PageNotImplemented />} />
         <Route path="/profile" element={<PageNotImplemented />} />
       </Route>
+      <Route path="/checkout" element={<Checkout />} />
       <Route path="/not-implemented" element={<PageNotImplemented />} />
       <Route path="/login" element={<Login />} />
       <Route path="/actions" element={<PageNotImplemented />} />

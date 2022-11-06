@@ -23,7 +23,7 @@ export function Shopping() {
         </div>
       </div>
       <div className={styles.shoppingBody}>
-        <Link to="/product/cadeira-gamer" className={styles.linkImage}>
+        <Link to="/checkout" className={styles.linkImage}>
           <img src={productCard} alt="cadeira gamer" />
         </Link>
       </div>
