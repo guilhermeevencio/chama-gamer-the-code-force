@@ -1,10 +1,11 @@
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import style from './style.module.css'
 import google from '../../assets/images/google_icon.png'
 import facebook from '../../assets/images/facebook_icon.png'
 import apple from '../../assets/images/apple_icon.png'
 
 export function Login() {
+    const navigate = useNavigate();
     return (
       <>
         <div className={style.header}>
@@ -44,7 +45,7 @@ export function Login() {
             </div>
             <Link to="/remember">Esqueci a senha</Link>
           </div>
-          <button type="submit">Entrar</button>
+          <button type="submit" onClick={ () => navigate('/home') }>Entrar</button>
         </form>
         <div className={style.forget}>
           <span>Não possui conta?</span>
