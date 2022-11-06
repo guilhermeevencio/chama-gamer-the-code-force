@@ -42,7 +42,11 @@ const TabBar = () => {
             <span className={styles.text}>Loja</span>
           </Link>
         </li>
-        <li>
+        <li
+          className={`${styles.list} ${
+            location.pathname === '/payments' ? styles.active : null
+          }`}
+        >
           <Link className={styles.buttonStyle} name="payments" to="/payments">
             <RiBillLine className={styles.icon} />
             <span className={styles.text}>Pagar</span>
