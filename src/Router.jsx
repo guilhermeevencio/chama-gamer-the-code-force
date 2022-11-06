@@ -17,6 +17,7 @@ export function Router() {
         <Route path="/payments" element={<PageNotImplemented />} />
         <Route path="/profile" element={<PageNotImplemented />} />
       </Route>
+      <Route path="/not-implemented" element={<PageNotImplemented />} />
       <Route path="/login" element={<Login />} />
       <Route path="/actions" element={<PageNotImplemented />} />
     </Routes>

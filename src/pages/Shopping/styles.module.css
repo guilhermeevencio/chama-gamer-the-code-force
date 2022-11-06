@@ -1,0 +1,67 @@
+.headerContainer {
+  background-color: var(--santander);
+  background-size: cover;
+  height: 360px;
+  color: white;
+}
+
+.navbar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem 2rem 1rem 2rem;
+  align-items: center;
+}
+
+.navbar h3 {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.balanceContainer {
+  color: var(--santander);
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  justify-content: center;
+  flex-direction: row;
+  background-color:white;
+  width: 50%;
+  border-radius: 8px;
+}
+
+.balanceSection {
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.balanceContainer p {
+  color: var(--darkGrey);
+}
+
+.balanceContainer h1 {
+  font-weight: 400;
+}
+
+.linkImage {
+  display: flex;
+  justify-content: center;
+  transform: translateY(-160px);
+}
+
+.offersHeader {
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-150px);
+  margin: 1rem 2rem;
+}
+
+.offersHeader h4 {
+  color: white;
+}
+
+.offersHeader p {
+  color: var(--santander);
+}
