@@ -2,9 +2,8 @@ import styles from './styles.module.css'
 
 export function Home() {
   return (
-    <div>
+    <div className={styles.home}>
       <h1 className={styles.teste}>Home</h1>
-      <p>Aqui é a home</p>
     </div>
   )
 }

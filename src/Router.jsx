@@ -11,9 +11,9 @@ export function Router() {
     <Routes>
       <Route path="/" element={<Start />} />
       <Route path="/" element={<TabBarLayout />}>
-        <Route path="/home" element={<Home />} />
-        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/cards" element={<Checkout />} />
         <Route path="/shopping" element={<Shopping />} />
+        <Route path="/home" element={<Home />} />
       </Route>
       <Route path="/login" element={<Login />} />
     </Routes>
