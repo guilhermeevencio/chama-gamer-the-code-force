@@ -52,7 +52,11 @@ const TabBar = () => {
             <span className={styles.text}>Pagar</span>
           </Link>
         </li>
-        <li>
+        <li
+          className={`${styles.list} ${
+            location.pathname === '/profile' ? styles.active : null
+          }`}
+        >
           <Link to="/profile" className={styles.buttonStyle} name="profile">
             <BiUserCircle className={styles.icon} />
             <span className={styles.text}>Perfil</span>

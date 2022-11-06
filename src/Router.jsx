@@ -15,6 +15,7 @@ export function Router() {
         <Route path="/shopping" element={<Shopping />} />
         <Route path="/home" element={<Home />} />
         <Route path="/payments" element={<PageNotImplemented />} />
+        <Route path="/profile" element={<PageNotImplemented />} />
       </Route>
       <Route path="/login" element={<Login />} />
       <Route path="/actions" element={<PageNotImplemented />} />
