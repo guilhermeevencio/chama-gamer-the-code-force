@@ -40,6 +40,7 @@ export function Login() {
               name="email"
               id="email"
               placeholder="unidosdocafe@email.com"
+              required
             />
           </label>
           <label htmlFor="password">
@@ -48,6 +49,7 @@ export function Login() {
               name="password"
               id="password"
               placeholder="Senha"
+              required
             />
           </label>
         </div>
