@@ -39,7 +39,8 @@
   height: 54px;
   border-radius: 16px;
   font-size: 1rem;
-  font-weight:600
+  font-weight:600;
+  cursor: pointer;
 }
 
 .buttonContainer {
