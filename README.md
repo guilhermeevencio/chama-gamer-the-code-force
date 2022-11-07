@@ -19,8 +19,8 @@ Projeto realizado pelo time 10 para o hackathon 2º edição the code force.
 
 
 ## Screenshots
+<img src="https://github.com/guilhermeevencio/chama-gamer-the-code-force/blob/main/public/app.png" width="350" alt="app">
 
-![App Screenshot](https://github.com/guilhermeevencio/chama-gamer-the-code-force/blob/main/public/app.png)
 
 
 
