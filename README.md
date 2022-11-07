@@ -1,7 +1,7 @@
 
 # Chama Gamer
 Projeto realizado pelo time 10 para o hackathon 2º edição the code force.
-O app consistem em ser uma carteira digital com pacotes de serviços personalizados e aplicativo inovador que facilita a compra de periféricos e produtos games, oferecendo descontos, promoções e programa de pontos.
+<p>O app consistem em ser uma carteira digital com pacotes de serviços personalizados e aplicativo inovador que facilita a compra de periféricos e produtos games, oferecendo descontos, promoções e programa de pontos.</p>
 
 # Autores
 ### Unidos do café
