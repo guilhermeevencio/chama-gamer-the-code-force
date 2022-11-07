@@ -1,9 +1,5 @@
 import React from 'react'
 
 export function Start() {
-  return (
-    <div>
-      register 
-    </div>
-  )
+  return <div>register</div>
 }

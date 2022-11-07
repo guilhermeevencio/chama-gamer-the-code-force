@@ -5,6 +5,9 @@ import orderFinnish from '../../assets/order-finnish.svg'
 import passwordInput from '../../assets/password-input.svg'
 
 export function Checkout() {
+  function handleSubmit() {
+    console.log('hello world!')
+  }
   return (
     <div>
       <div className={styles.headerContainer}>
@@ -32,7 +35,13 @@ export function Checkout() {
         </p>
       </div>
       <div className={styles.buttonContainer}>
-        <button className={styles.finnishOrderButton}>Confirmar compra</button>
+        <button
+          type="submit"
+          className={styles.finnishOrderButton}
+          onClick={handleSubmit}
+        >
+          Confirmar compra
+        </button>
       </div>
     </div>
   )
