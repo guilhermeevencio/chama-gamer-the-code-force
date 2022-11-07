@@ -7,7 +7,7 @@
 <span>O app consistem em ser uma carteira digital com pacotes de serviços personalizados e aplicativo inovador que facilita a compra de periféricos e produtos games, oferecendo descontos, promoções e programa de pontos.</span>
 
 # Autores
-### Unidos do café
+### Time Unidos do café
 - [@Arlene](https://www.linkedin.com/mwlite/in/arlene-ferreira-gusmao)
 - [@Gabriel](https://www.linkedin.com/in/gabriel-branco)
 - [@Guilherme](https://www.linkedin.com/in/guilhermeevencio)
