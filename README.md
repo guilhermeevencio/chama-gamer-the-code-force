@@ -2,10 +2,9 @@
 # Chama Gamer
 <p>Projeto realizado pelo time 10 para o hackathon 2º edição the code force.</p>
 
-<div>
+# Sobre a solução
 <img src="https://github.com/guilhermeevencio/chama-gamer-the-code-force/blob/main/public/logo.png" width="50" alt="logo">
 <p>O app consistem em ser uma carteira digital com pacotes de serviços personalizados e aplicativo inovador que facilita a compra de periféricos e produtos games, oferecendo descontos, promoções e programa de pontos.</p>
-</div>
 
 # Autores
 ### Unidos do café
